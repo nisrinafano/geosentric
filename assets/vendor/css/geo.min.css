@@ -1,0 +1,10 @@
+.bg-geoPrimary{background-color:#1e2c31}
+.bg-second{background-color: #9fb0ba}
+.bg-Primary{background-color: #ffffff}
+.text-primary{color:#000000}
+.line-primary{color:#1e2c31}
+hr{border-color:#1e2c31;border-width:3px;max-width:50px}hr.light{border-color:#fff}hr.line{border-color:#1e2c31}a{transition:all .35s;color:#F05F40}a:focus,a:hover{color:#eb3812}p{font-size:16px;line-height:1.5;margin-bottom:20px}
+.text-faded{color:rgba(0,0,0,.7)}section{padding:100px 0}aside{padding:50px 0}
+.btn-xl{color:#fff;background-color:#4e6f81;border-color:#4e6f81;border-radius:3px;font-size:18px;padding:20px 40px}
+.timeline-image{left:0;margin-left:0;width:80px;height:80px;position:absolute;z-index:100;background-color:#4e6f81;color:#fff;border-radius:100%;border:7px solid #f1f1f1;text-align:center}
+
