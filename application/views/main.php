@@ -370,7 +370,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             slideIndex++;
             if (slideIndex> slides.length) {slideIndex = 1} 
             slides[slideIndex-1].style.display = "block"; 
-            setTimeout(showSlides, 20000);
+            setTimeout(showSlides, 30000);
         }
     </script>
 </body>
