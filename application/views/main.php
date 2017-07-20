@@ -1,81 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Creative - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url()."assets/vendor/bootstrap/";?>css/bootstrap.min.css ?>" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="<?php echo base_url()."assets/vendor/font-awesome/";?>css/font-awesome.min.css ?>" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="<?php echo base_url()."assets/vendor/";?>magnific-popup/magnific-popup.css ?>" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="<?php echo base_url()."assets/vendor/";?>css/creative.min.css ?>" rel="stylesheet">
-    <!--<link href="<?php echo base_url()."assets/vendor/";?>css/geosentric.min.css ?>" rel="stylesheet">-->
-    <link href="<?php echo base_url()."assets/vendor/";?>css/geo.min.css ?>" rel="stylesheet">
-    <link href="<?php echo base_url()."assets/vendor/";?>css/slideshow.css ?>" rel="stylesheet">
-    <link href="<?php echo base_url()."assets/vendor/";?>css/agency.min.css ?>" rel="stylesheet">
-</head>
-
 <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#events">Events</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#jadwal">Jadwal</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#informasi">Informasi</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contacts">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Register</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Login</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
     <div class="slideshow">
         <div class="mySlides">
            <img src="<?php echo base_url()."assets/img/";?>home2.jpg ?>" alt="Header" class="img-responsive" style="width:100%">
@@ -93,14 +16,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About</h2>
                     <hr class="light sr-icons">
-                    <p class="text-faded">Geosentic adalah  ................</p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
-                    <p class="text-faded">Sejarah Geosentic ................</p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
-                    <p class="text-faded">Bla Bla Bla .... </p>
+                    <h3 class="text-faded">Geosentic adalah</h3>
+                    <p class="text-faded">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <h3 class="text-faded">Sejarah Geosentic</h3>
+                    <p class="text-faded">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
             </div>
         </div>
@@ -120,22 +43,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img src="<?php echo base_url()."assets/img/";?>event0.png ?>" alt="Header" class="img-responsive img-circle sr-icons" />
-                        <h3>GEOLYMPIC</h3>
-                        <p class="text-muted">Penjelasan (?)</p>
+                        <h3 class="section-subheading">GEOLYMPIC</h3>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img src="<?php echo base_url()."assets/img/";?>event1.png ?>" alt="Header" class="img-responsive img-circle sr-icons" />
                         <h3>GEOSAT</h3>
-                       <p class="text-muted">Penjelasan (?)</p>
+                       <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img src="<?php echo base_url()."assets/img/";?>event2.png ?>" alt="Header" class="img-responsive img-circle sr-icons" />
                         <h3>GRAVITASI</h3>
-                        <p class="text-muted">Penjelasan (?)</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -186,7 +115,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </a>
                     <div class="portfolio-caption">
                         <h4>News 1</h4>
-                        <p class="text-muted">Isi News</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -195,7 +126,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </a>
                     <div class="portfolio-caption">
                         <h4>News 2</h4>
-                        <p class="text-muted">Isi News</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -204,7 +137,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </a>
                     <div class="portfolio-caption">
                         <h4>News 3</h4>
-                        <p class="text-muted">Isi News</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -278,7 +213,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h2>News</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="<?php echo base_url()."assets/img/";?>02.jpg ?>" alt="">
-                                <p>Isi News</p>
+                                <p class="text-muted">
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+                                </p>
+                                <p class="text-muted">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat…
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -305,7 +245,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h2>News</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="<?php echo base_url()."assets/img/";?>02.jpg ?>" alt="">
-                                <p>Isi News</p>
+                                 <p class="text-muted">
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+                                </p>
+                                <p class="text-muted">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat…
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -332,7 +277,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h2>News</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-responsive img-centered" src="<?php echo base_url()."assets/img/";?>02.jpg ?>" alt="">
-                                <p>Isi News</p>
+                                 <p class="text-muted">
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+                                </p>
+                                <p class="text-muted">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat…
+                                </p>
                             </div>
                         </div>
                     </div>

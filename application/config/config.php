@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$config['base_url'] = 'http://localhost/geosentric/';
+$config['base_url'] = 'http://localhost/geosentric_/';
 $config['index_page'] = 'index.php';
 $config['uri_protocol']	= 'REQUEST_URI';
 $config['url_suffix'] = '';
