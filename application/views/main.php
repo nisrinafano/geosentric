@@ -43,19 +43,23 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img src="<?php echo base_url()."assets/img/";?>event0.png ?>" alt="Header" class="img-responsive img-circle sr-icons" />
-                        <h3 class="section-subheading">GEOLYMPIC</h3>
+                        <h3>GEOLYMPIC</h3>
                         <p class="text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+                        <br>
+                        <a href="#" class="page-scroll btn btn-default sr-button">Read More </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <img src="<?php echo base_url()."assets/img/";?>event1.png ?>" alt="Header" class="img-responsive img-circle sr-icons" />
                         <h3>GEOSAT</h3>
-                       <p class="text-muted">
+                        <p class="text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                       </p>
+                        </p>
+                        <br>
+                        <a href="#" class="page-scroll btn btn-default sr-button">Read More </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
@@ -65,6 +69,8 @@
                         <p class="text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+                        <br>
+                        <a href="#" class="page-scroll btn btn-default sr-button">Read More </a>
                     </div>
                 </div>
             </div>

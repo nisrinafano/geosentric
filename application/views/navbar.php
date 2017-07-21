@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Theme CSS -->
     <link href="<?php echo base_url()."assets/vendor/";?>css/creative.min.css ?>" rel="stylesheet">
     <!--<link href="<?php echo base_url()."assets/vendor/";?>css/geosentric.min.css ?>" rel="stylesheet">-->
-    <link href="<?php echo base_url()."assets/vendor/";?>css/geo.min.css ?>" rel="stylesheet">
+    <link href="<?php echo base_url()."assets/vendor/";?>css/geosentric_.min.css ?>" rel="stylesheet">
     <link href="<?php echo base_url()."assets/vendor/";?>css/slideshow.css ?>" rel="stylesheet">
     <link href="<?php echo base_url()."assets/vendor/";?>css/agency.min.css ?>" rel="stylesheet">
 </head>
